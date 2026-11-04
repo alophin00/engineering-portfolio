@@ -21,13 +21,13 @@ export const site = {
   },
 
   contact: {
-    email: null as string | null, // e.g. "alex@example.com"
-    linkedin: null as string | null, // e.g. "https://www.linkedin.com/in/your-handle"
-    github: null as string | null, // e.g. "https://github.com/your-handle"
+    email: "alexdelroythompson2@gmail.com",
+    linkedin: "https://www.linkedin.com/in/alexander-thompson-23b8b32b5/",
+    github:  "https://github.com/alophin00",
   },
 
   /** Put your PDF at /public/resume.pdf, then set url: "/resume.pdf". */
-  resume: { url: null as string | null, updated: null as string | null },
+  resume: { url: "/resume.pdf", updated: "Nov 2026" },
 
   /** Set to false before sending the site to recruiters to hide all "to add" placeholders. */
   showPlaceholders: true,
